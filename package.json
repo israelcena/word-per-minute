@@ -1,6 +1,6 @@
 {
   "name": "word-per-minute",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reading time estimation for javascript sites.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -22,9 +22,13 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
     "chai": "^4.2.0",
     "curry": "^1.2.0",
-    "eslint": "^6.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "mocha": "^7.1.1",
     "onchange": "^3.0.2"
   }
