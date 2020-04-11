@@ -1,0 +1,31 @@
+{
+  "name": "word-per-minute",
+  "version": "1.0.1",
+  "description": "Reading time estimation for javascript sites.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "lint": "eslint lib test",
+    "spec": "mocha",
+    "test": "npm run lint && npm run spec",
+    "watch": "onchange {lib,test}/*.js -- npm test"
+  },
+  "repository": "https://github.com/israelcena/word-per-minute",
+  "keywords": [
+    "words per minute",
+    "read",
+    "time for read",
+    "read time",
+    "reading time"
+  ],
+  "author": "israelcena <israelcena@gmail.com> (https://israelcena.com.br)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "curry": "^1.2.0",
+    "eslint": "^6.6.0",
+    "mocha": "^7.1.1",
+    "onchange": "^3.0.2"
+  }
+}

@@ -1,0 +1,14 @@
+# node
+node_modules/
+npm-debug.log
+
+# OS / Windows / Linux
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Temp for create Readme
+README.md
